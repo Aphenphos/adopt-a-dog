@@ -9,9 +9,7 @@ let dogs = [];
 
 // write handler functions
 async function handlePageLoad() {
-    // *** Get all the dogs (async, so you need to "await")
-    // and assign to "dogs" variable
-
+    dogs = await getDogs();
     display();
 }
 
