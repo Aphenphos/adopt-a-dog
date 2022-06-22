@@ -10,7 +10,7 @@ export default function createDogDetail(root) {
         img.src = `../assets/dogs/${dog.breed}.jpeg`;
         img.alt = dog.name; // use the dog's name as the alt
         // format a string like "Googoo is a 2 year old beagle":
-        intro.textContent = `${dog.name} is the dopest`;
+        intro.textContent = `${dog.name} is the dopest ${dog.age} year old dog ever`;
         description.textContent = 'can run fast'; // dog description
     };
 }
